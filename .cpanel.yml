@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/aztechto/public_html/
+    - export DEPLOYPATH=/home/aztechto/weddable.au/
     - /bin/cp -R * $DEPLOYPATH
