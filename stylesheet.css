@@ -1,6 +1,13 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    text-align: center;
 }
 
 p {
@@ -34,7 +41,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 70px;
 }
 
 .body-wrapper {
@@ -56,7 +63,7 @@ img {
     }
     
     .total-wrapper {
-        width: 100%;
+        width: 90%;
     }
 
     .body-wrapper {
